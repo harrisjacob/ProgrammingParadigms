@@ -1,0 +1,120 @@
+//main.css
+
+
+body {
+    background-color: Blue;
+    color: White;
+}
+
+.pageDiv{
+	display: flex;
+	background-color: #d0e4fe;//sets background color of container
+	flex-direction: row;
+	justify-content: center;
+	align-items: center; //sets all items centered araound horizontal axis
+}
+
+.rightPanel{
+	//flex: 1;
+	width: 300px;
+	text-align: center;
+}
+
+
+.centerDiv {
+        //flex: 1;
+	width: 300px;
+        color: blue;
+        text-align: center;
+	
+}
+
+.leftPanel{
+	//flex: 1;
+	width: 300px;
+	text-align: center;
+}
+
+#getCityDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#cities{
+    align-items: center;
+    padding: 15pt;
+}
+#getMonthDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#cityCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#monthCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#highCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#lowCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#snowCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#rainCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#hugeDiv {
+  background-image: url('rain.jpg');
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+}
+#Header{
+  background-image: url('sky.jpg');
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+}
+#bigDiv {
+  background-image: url('rain.jpg');
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px; 
+}
+#Links{
+  background-image: url('https://radar.weather.gov/ridge/Conus/Loop/NatLoop.gif');
+  background-color: #cccccc;
+  background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 66.64%;
+
+}
+body{
+   background-color: #cccccc;
+}
