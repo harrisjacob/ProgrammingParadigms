@@ -10,7 +10,7 @@ This server must be started prior to starting the tests (see client update for i
 # Web Service Update
 Our service runs on port 48. Our webservice could be used by customers in lots of different ways. We could use it so that travellers could look up information about the cities they are travelling too so they could better plan. It would also allow people to put new weather information so that the database stays up to date with the latest weather trends.
 
-#Client Update
+# Client Update
 A client was implemented and can be found at:
 http://student04.cse.nd.edu/jharri18/climate/
 This will allow you to query the database using a month and city.
